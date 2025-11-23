@@ -1,4 +1,4 @@
-Veripress (TextAtlas Journalist Tool)
+**Veripress** (TextAtlas Journalist Tool)
 The Journalist's Intelligence Unit. A suite of tactical digital forensic tools designed to verify news, detect deepfakes, and analyze documents. Built for the modern newsroom to fight disinformation using local AI and real-time data.
 
 * Features :
@@ -22,6 +22,7 @@ Wayback Machine Integration: Instantly checks if a URL has been archived or dele
 
 
 * Tech Stack
+  
 Frontend:
 
 React (Vite)
@@ -37,3 +38,4 @@ AI Engines:
 groq (Llama 3.3 for text logic)
 transformers (Local Hugging Face model for image detection)
 Forensic Libs: Pillow (Images), pypdf (PDFs), python-docx (Word).
+
