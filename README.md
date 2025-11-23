@@ -1,4 +1,4 @@
-#  VeriPress (TextAtlas Journalist Tool)
+#  VeriPress 
 
 ### *The Journalist's Intelligence Unit*
 
@@ -214,6 +214,7 @@ uvicorn main:app --reload
 
 VeriPress Team
 Unbreaking News — Hackathon Edition 2025
+
 
 
 
