@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@300;400;700&display=swap');
+
+@theme {
+  /* The "Authentic Press" Palette */
+  --color-veripress-bg: #FDFBF7;         /* Authentic Newspaper Cream */
+  --color-veripress-text: #111111;       /* High Contrast Ink Black */
+  --color-veripress-burgundy: #591c2e;   /* Veripress Branding */
+  --color-veripress-paper: #ffffff;      /* Pure white for contrast cards */
+  --color-veripress-line: #e5e5e5;       /* Subtle divider lines */
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-body: 'Merriweather', serif;    /* Classic reading font */
+}
+
+body {
+  background-color: var(--color-veripress-bg);
+  color: var(--color-veripress-text);
+  /* Subtle noise texture to look like real paper */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+/* Newspaper-style Borders */
+.border-press {
+  border-bottom: 1px solid #1a2526;
+}
+.border-press-thick {
+  border-bottom: 3px solid #1a2526;
+}
