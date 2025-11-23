@@ -31,7 +31,7 @@ export default function FactChecker() {
   };
 
   return (
-    <div className="min-h-screen font-serif text-[#1a2526] bg-[#FDFBF7]">
+    <div className="min-h-screen font-serif text-[#1a2526] bg-[#FDFBF7] flex flex-col">
       {/* Navigation Back */}
       <div className="p-4 border-b border-[#1a2526]/10">
         <Link to="/dashboard" className="flex items-center gap-2 text-sm font-sans font-bold uppercase hover:text-[#591c2e] transition-colors w-fit">
@@ -52,7 +52,7 @@ export default function FactChecker() {
         <div className="w-24 h-1 bg-[#591c2e] mt-2"></div>
       </nav>
 
-      <main className="max-w-3xl mx-auto px-6 pb-20">
+      <main className="max-w-3xl mx-auto px-6 pb-20 flex-1 w-full">
         {/* Search Input - Editorial Style */}
         <div className="relative max-w-2xl mx-auto mb-16">
           <div className="flex flex-col md:flex-row border-2 border-[#1a2526] bg-white p-1 shadow-[4px_4px_0px_0px_rgba(26,37,38,1)]">
@@ -138,6 +138,16 @@ export default function FactChecker() {
           )}
         </AnimatePresence>
       </main>
+
+      {/* IMAGE 3: CAMERA - ADDED AT BOTTOM */}
+      <div className="w-full flex justify-center mt-auto overflow-hidden pointer-events-none">
+         <img 
+           src="/camera.png"   // <--- CHANGE THIS from "/team.png" to "/camera.png"
+           alt="Forensic Camera" 
+           className="w-full max-w-4xl object-cover opacity-80 translate-y-12"
+         />
+      </div>
+
     </div>
   );
 }
