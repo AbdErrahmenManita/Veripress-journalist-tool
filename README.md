@@ -1,4 +1,4 @@
-# 📘 VeriPress (TextAtlas Journalist Tool)
+#  VeriPress (TextAtlas Journalist Tool)
 
 ### *The Journalist's Intelligence Unit*
 
@@ -6,7 +6,7 @@ A tactical suite of digital forensic tools designed to verify news, detect deepf
 
 ---
 
-# 🚀 Overview
+#  Overview
 
 **VeriPress** is an OSINT-powered platform providing journalists and fact-checkers with a unified interface to verify text claims, analyze images, detect deepfakes, and authenticate documents.
 It emphasizes:
@@ -19,9 +19,9 @@ It emphasizes:
 
 ---
 
-# 🧰 Core Features
+#  Core Features
 
-## 🔍 1. VeriCheck — Fact-Checking Engine
+##  1. VeriCheck — Fact-Checking Engine
 
 Real-time verification of statements and headlines.
 
@@ -43,7 +43,7 @@ Real-time verification of statements and headlines.
 
 ---
 
-## 🖼️ 2. DeepScan — Image Forensics
+##  2. DeepScan — Image Forensics
 
 A 5-layer forensic image analysis engine.
 
@@ -80,7 +80,7 @@ A 5-layer forensic image analysis engine.
 
 ---
 
-## 📄 3. DocLab — Document Forensics
+##  3. DocLab — Document Forensics
 
 Forensic analysis for PDF and DOCX files.
 
@@ -105,7 +105,7 @@ Forensic analysis for PDF and DOCX files.
 
 ---
 
-## 🕑 4. ArchiveTracer — Web Archive Intelligence
+##  4. ArchiveTracer — Web Archive Intelligence
 
 Historic investigation of URLs.
 
@@ -121,9 +121,9 @@ Historic investigation of URLs.
 
 ---
 
-# 🏗️ Technical Architecture
+#  Technical Architecture
 
-## 🌐 Frontend
+##  Frontend
 
 * **React (Vite)**
 * **Tailwind CSS v4**
@@ -133,7 +133,7 @@ Historic investigation of URLs.
 
 ---
 
-## 🖥️ Backend
+##  Backend
 
 ### Framework
 
@@ -166,7 +166,7 @@ Historic investigation of URLs.
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## Frontend
 
@@ -186,7 +186,7 @@ uvicorn main:app --reload
 
 ---
 
-# 🧪 Test Cases
+#  Test Cases
 
 ## Text Verification
 
@@ -210,9 +210,10 @@ uvicorn main:app --reload
 | Clean DOCX | Valid metadata   |
 
 
-# 🤝 Contributors
+#  Contributors
 
 VeriPress Team
 Unbreaking News — Hackathon Edition 2025
+
 
 
